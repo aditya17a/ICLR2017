@@ -1,0 +1,82 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2017_conference,times}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[section]{placeins}
+\usepackage{physics}
+\usepackage{graphicx,import}
+\usepackage{amsmath}
+\usepackage[norelsize]{algorithm2e}
+
+\title{The Incredible Shrinking Neural Network: Pruning to Operate in Constrained Memory Environments}
+
+
+\author{Nikolas Wolfe, Aditya Sharma \& Bhiksha Raj\\
+School of Computer Science\\
+Carnegie Mellon University\\
+Pittsburgh, PA 15213, USA \\
+%\texttt{nwolfe@cs.cmu.edu} \\
+\texttt{\{nwolfe, bhiksha\}@cs.cmu.edu, adityasharma@cmu.edu}
+%\And
+%Aditya Sharma \\
+%School of Computer Science\\
+%Carnegie Mellon University\\
+%Pittsburgh, PA 15213, USA \\
+%\texttt{adityasharma@cmu.edu} \\
+\And
+Lukas Drude \\
+Universitat Paderborn\\
+\texttt{drude@nt.upb.de} \\
+%\And
+%Bhiksha Raj \\
+%School of Computer Science\\
+%Carnegie Mellon University\\
+%Pittsburgh, PA 15213, USA \\
+%\texttt{bhiksha@cs.cmu.edu} \\
+}
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+%\iclrfinalcopy % Uncomment for camera-ready version
+
+\newcommand{\Out}[2]{o_{#1}^{(#2)}}
+\newcommand{\Target}[1]{t_{#1}}
+\newcommand{\Input}[2]{x_{#1}^{(#2)}}
+\newcommand{\Weight}[3]{w_{#1#2}^{(#3)}}
+\newcommand{\Con}[3]{c_{#1#2}^{(#3)}}
+\newcommand{\Etotal}{E_{\mathrm{total}}}
+
+\begin{document}
+
+
+\maketitle
+
+\input{abstract.tex}
+
+\input{introduction.tex}
+\input{literature_review.tex}
+\input{methodology.tex}
+\input{results.tex}
+\input{conclusions.tex}
+
+\bibliography{iclr2017_conference}
+\bibliographystyle{iclr2017_conference}
+
+\newpage
+\begin{center}
+\appendix{APPENDIX}
+\end{center}
+
+\section{Second Derivative Back-Propagation}\label{apd:first}
+\input{diagram.tex}
+\input{first_second_derivatives.tex}
+
+\end{document}
