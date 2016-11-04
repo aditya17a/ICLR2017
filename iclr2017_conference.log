@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  4 NOV 2016 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  4 NOV 2016 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,9 +1443,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 (./abstract.tex) (./introduction.tex [1{/usr/local/texlive/2016basic/texmf-var/
 fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]) (./methodology.tex [3]
-(./taylor_series.tex) (./less_math_error_approximation.tex [4])
-(./pruning_algorithm.tex
+]
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [2])
+(./methodology.tex [3] (./taylor_series.tex)
+(./less_math_error_approximation.tex [4]) (./pruning_algorithm.tex
 <png/intuition_mini.png, id=218, 492.33937pt x 253.69781pt>
 File: png/intuition_mini.png Graphic file (type png)
 
@@ -1719,7 +1722,7 @@ ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016basic/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016basic/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on iclr2017_conference.pdf (22 pages, 764129 bytes).
+Output written on iclr2017_conference.pdf (22 pages, 764178 bytes).
 PDF statistics:
  1190 PDF objects out of 1200 (max. 8388607)
  560 compressed objects within 6 object streams
