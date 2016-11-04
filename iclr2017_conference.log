@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  4 NOV 2016 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  4 NOV 2016 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1443,23 +1443,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 (./abstract.tex) (./introduction.tex [1{/usr/local/texlive/2016basic/texmf-var/
 fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Underfull \vbox (badness 1033) has occurred while \output is active []
-
- [2])
-(./methodology.tex [3] (./taylor_series.tex)
-(./less_math_error_approximation.tex [4]) (./pruning_algorithm.tex
-<png/intuition_mini.png, id=218, 492.33937pt x 253.69781pt>
+] [2]) (./methodology.tex [3]
+(./taylor_series.tex) (./less_math_error_approximation.tex [4])
+(./pruning_algorithm.tex
+<png/intuition_mini.png, id=222, 492.33937pt x 253.69781pt>
 File: png/intuition_mini.png Graphic file (type png)
 
 <use png/intuition_mini.png>
 Package pdftex.def Info: png/intuition_mini.png used on input line 3.
 (pdftex.def)             Requested size: 397.48499pt x 204.82826pt.
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [5 <./png/intuition_mini.png>])) (./results.tex [6]
-<png/mnist-acc99-single-pass-method.pdf, id=245, 392.87402pt x 262.28615pt>
+ [5 <./png/intuition_mini.png>])) (./results.tex
+[6]
+<png/mnist-acc99-single-pass-method.pdf, id=249, 392.87402pt x 262.28615pt>
 File: png/mnist-acc99-single-pass-method.pdf Graphic file (type pdf)
 
 <use png/mnist-acc99-single-pass-method.pdf>
@@ -1467,7 +1462,7 @@ Package pdftex.def Info: png/mnist-acc99-single-pass-method.pdf used on input l
 ine 11.
 (pdftex.def)             Requested size: 194.76982pt x 130.03413pt.
 
-<png/mnist-acc99-single-pass-accuracy.pdf, id=246, 385.3459pt x 266.80302pt>
+<png/mnist-acc99-single-pass-accuracy.pdf, id=250, 385.3459pt x 266.80302pt>
 File: png/mnist-acc99-single-pass-accuracy.pdf Graphic file (type pdf)
 
 <use png/mnist-acc99-single-pass-accuracy.pdf>
@@ -1475,7 +1470,7 @@ Package pdftex.def Info: png/mnist-acc99-single-pass-accuracy.pdf used on input
  line 12.
 (pdftex.def)             Requested size: 194.76982pt x 134.85048pt.
 
-<png/mnist-acc99-iterative-rerank-method.pdf, id=251, 392.87402pt x 262.28615pt
+<png/mnist-acc99-iterative-rerank-method.pdf, id=255, 392.87402pt x 262.28615pt
 >
 File: png/mnist-acc99-iterative-rerank-method.pdf Graphic file (type pdf)
  <use png/mnist-acc99-iterative-rerank-method.pdf>
@@ -1483,7 +1478,7 @@ Package pdftex.def Info: png/mnist-acc99-iterative-rerank-method.pdf used on in
 put line 23.
 (pdftex.def)             Requested size: 194.76982pt x 130.03413pt.
 
-<png/mnist-acc99-iterative-rerank-accuracy.pdf, id=252, 385.3459pt x 262.28615p
+<png/mnist-acc99-iterative-rerank-accuracy.pdf, id=256, 385.3459pt x 262.28615p
 t>
 File: png/mnist-acc99-iterative-rerank-accuracy.pdf Graphic file (type pdf)
  <use png/mnist-acc99-iterative-rerank-accuracy.pdf>
@@ -1491,25 +1486,11 @@ Package pdftex.def Info: png/mnist-acc99-iterative-rerank-accuracy.pdf used on
 input line 24.
 (pdftex.def)             Requested size: 194.76982pt x 132.5675pt.
 
-<png/mnist-acc99-gt-gain.pdf, id=255, 945.4384pt x 379.3234pt>
+<png/mnist-acc99-gt-gain.pdf, id=259, 945.4384pt x 379.3234pt>
 File: png/mnist-acc99-gt-gain.pdf Graphic file (type pdf)
 
 <use png/mnist-acc99-gt-gain.pdf>
 Package pdftex.def Info: png/mnist-acc99-gt-gain.pdf used on input line 41.
-(pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
-
-<png/mnist-acc99-g1-gain.pdf, id=256, 945.4384pt x 379.3234pt>
-File: png/mnist-acc99-g1-gain.pdf Graphic file (type pdf)
-
-<use png/mnist-acc99-g1-gain.pdf>
-Package pdftex.def Info: png/mnist-acc99-g1-gain.pdf used on input line 48.
-(pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
-
-<png/mnist-acc99-g2-gain.pdf, id=257, 945.4384pt x 379.3234pt>
-File: png/mnist-acc99-g2-gain.pdf Graphic file (type pdf)
-
-<use png/mnist-acc99-g2-gain.pdf>
-Package pdftex.def Info: png/mnist-acc99-g2-gain.pdf used on input line 55.
 (pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
  [7 <./png/mnist-acc99-single-pass-method.pdf> <./png/mnist-acc99-single-pass-a
 ccuracy.pdf
@@ -1517,12 +1498,21 @@ ccuracy.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-acc99-single-pas
 s-accuracy.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
->]
+>] <png/mnist-acc99-g1-gain.pdf, id=361, 945.4384pt x 379.3234pt>
+File: png/mnist-acc99-g1-gain.pdf Graphic file (type pdf)
 
-LaTeX Warning: Text page 8 contains only floats.
+<use png/mnist-acc99-g1-gain.pdf>
+Package pdftex.def Info: png/mnist-acc99-g1-gain.pdf used on input line 48.
+(pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
 
-[8 <./png/mnist-acc99-iterative-rerank-method.pdf> <./png/mnist-acc99-iterative
--rerank-accuracy.pdf
+<png/mnist-acc99-g2-gain.pdf, id=362, 945.4384pt x 379.3234pt>
+File: png/mnist-acc99-g2-gain.pdf Graphic file (type pdf)
+
+<use png/mnist-acc99-g2-gain.pdf>
+Package pdftex.def Info: png/mnist-acc99-g2-gain.pdf used on input line 55.
+(pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
+ [8 <./png/mnist-acc99-iterative-rerank-method.pdf> <./png/mnist-acc99-iterativ
+e-rerank-accuracy.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-acc99-iterative-
 rerank-accuracy.pdf): PDF inclusion: multiple pdfs with page group included in 
@@ -1531,15 +1521,11 @@ a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-acc99-gt-gain.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
-> <./png/mnist-acc99-g1-gain.pdf
+>] [9 <./png/mnist-acc99-g1-gain.pdf> <./png/mnist-acc99-g2-gain.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-acc99-g1-gain.pd
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-acc99-g2-gain.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./png/mnist-acc99-g2-gain.pdf>]
-<png/mnist-deep-single-pass-method.pdf, id=590, 392.87402pt x 262.28615pt>
+>] <png/mnist-deep-single-pass-method.pdf, id=594, 392.87402pt x 262.28615pt>
 File: png/mnist-deep-single-pass-method.pdf Graphic file (type pdf)
 
 <use png/mnist-deep-single-pass-method.pdf>
@@ -1547,7 +1533,7 @@ Package pdftex.def Info: png/mnist-deep-single-pass-method.pdf used on input li
 ne 86.
 (pdftex.def)             Requested size: 194.76982pt x 130.03413pt.
 
-<png/mnist-deep-single-pass-accuracy.pdf, id=591, 385.3459pt x 266.80302pt>
+<png/mnist-deep-single-pass-accuracy.pdf, id=595, 385.3459pt x 266.80302pt>
 File: png/mnist-deep-single-pass-accuracy.pdf Graphic file (type pdf)
 
 <use png/mnist-deep-single-pass-accuracy.pdf>
@@ -1555,14 +1541,14 @@ Package pdftex.def Info: png/mnist-deep-single-pass-accuracy.pdf used on input
 line 87.
 (pdftex.def)             Requested size: 194.76982pt x 134.85048pt.
 
-<png/mnist-deep-iterative-rerank-method.pdf, id=595, 392.87402pt x 262.28615pt>
+<png/mnist-deep-iterative-rerank-method.pdf, id=599, 392.87402pt x 262.28615pt>
 File: png/mnist-deep-iterative-rerank-method.pdf Graphic file (type pdf)
 <use png/mnist-deep-iterative-rerank-method.pdf>
 Package pdftex.def Info: png/mnist-deep-iterative-rerank-method.pdf used on inp
 ut line 101.
 (pdftex.def)             Requested size: 194.76982pt x 130.03413pt.
 
-<png/mnist-deep-iterative-rerank-accuracy.pdf, id=596, 385.3459pt x 266.80302pt
+<png/mnist-deep-iterative-rerank-accuracy.pdf, id=600, 385.3459pt x 266.80302pt
 >
 File: png/mnist-deep-iterative-rerank-accuracy.pdf Graphic file (type pdf)
  <use png/mnist-deep-iterative-rerank-accuracy.pdf>
@@ -1585,21 +1571,21 @@ ingle page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-deep-iterative-r
 erank-accuracy.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
->] <png/mnist-deep-gt-gain.pdf, id=793, 945.4384pt x 379.3234pt>
+>] <png/mnist-deep-gt-gain.pdf, id=797, 945.4384pt x 379.3234pt>
 File: png/mnist-deep-gt-gain.pdf Graphic file (type pdf)
 
 <use png/mnist-deep-gt-gain.pdf>
 Package pdftex.def Info: png/mnist-deep-gt-gain.pdf used on input line 117.
 (pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
 
-<png/mnist-deep-g1-gain.pdf, id=794, 945.4384pt x 379.3234pt>
+<png/mnist-deep-g1-gain.pdf, id=798, 945.4384pt x 379.3234pt>
 File: png/mnist-deep-g1-gain.pdf Graphic file (type pdf)
 
 <use png/mnist-deep-g1-gain.pdf>
 Package pdftex.def Info: png/mnist-deep-g1-gain.pdf used on input line 124.
 (pdftex.def)             Requested size: 397.48499pt x 159.47679pt.
 
-<png/mnist-deep-g2-gain.pdf, id=795, 945.4384pt x 379.3234pt>
+<png/mnist-deep-g2-gain.pdf, id=799, 945.4384pt x 379.3234pt>
 File: png/mnist-deep-g2-gain.pdf Graphic file (type pdf)
 
 <use png/mnist-deep-g2-gain.pdf>
@@ -1609,13 +1595,13 @@ Package pdftex.def Info: png/mnist-deep-g2-gain.pdf used on input line 131.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-deep-g1-gain.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->] <png/diamond.png, id=885, 881.2925pt x 332.24126pt>
+>] <png/diamond.png, id=889, 881.2925pt x 332.24126pt>
 File: png/diamond.png Graphic file (type png)
  <use png/diamond.png>
 Package pdftex.def Info: png/diamond.png used on input line 156.
 (pdftex.def)             Requested size: 317.9892pt x 119.88051pt.
 
-<png/rshape.png, id=886, 875.27pt x 322.20375pt>
+<png/rshape.png, id=890, 875.27pt x 322.20375pt>
 File: png/rshape.png Graphic file (type png)
  <use png/rshape.png>
 Package pdftex.def Info: png/rshape.png used on input line 157.
@@ -1625,28 +1611,28 @@ Package pdftex.def Info: png/rshape.png used on input line 157.
 <./png/rshape.png>]) (./iclr2017_conference.bbl [14
 
 ]) [15] (./diagram.tex
-(./drawing.pdf_tex <drawing.pdf, id=957, page=1, 355.65945pt x 199.1693pt>
+(./drawing.pdf_tex <drawing.pdf, id=961, page=1, 355.65945pt x 199.1693pt>
 File: drawing.pdf Graphic file (type pdf)
 
 <use drawing.pdf, page 1>
 Package pdftex.def Info: drawing.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 357.73405pt x 200.32971pt.
 
-<drawing.pdf, id=958, page=2, 355.65945pt x 199.1693pt>
+<drawing.pdf, id=962, page=2, 355.65945pt x 199.1693pt>
 File: drawing.pdf Graphic file (type pdf)
 
 <use drawing.pdf, page 2>
 Package pdftex.def Info: drawing.pdf, page2 used on input line 58.
 (pdftex.def)             Requested size: 357.73405pt x 200.32971pt.
 
-<drawing.pdf, id=959, page=3, 355.65945pt x 199.1693pt>
+<drawing.pdf, id=963, page=3, 355.65945pt x 199.1693pt>
 File: drawing.pdf Graphic file (type pdf)
 
 <use drawing.pdf, page 3>
 Package pdftex.def Info: drawing.pdf, page3 used on input line 61.
 (pdftex.def)             Requested size: 357.73405pt x 200.32971pt.
 
-<drawing.pdf, id=960, page=4, 355.65945pt x 199.1693pt>
+<drawing.pdf, id=964, page=4, 355.65945pt x 199.1693pt>
 File: drawing.pdf Graphic file (type pdf)
 
 <use drawing.pdf, page 4>
@@ -1722,10 +1708,10 @@ ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016basic/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016basic/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on iclr2017_conference.pdf (22 pages, 764178 bytes).
+Output written on iclr2017_conference.pdf (22 pages, 765130 bytes).
 PDF statistics:
- 1190 PDF objects out of 1200 (max. 8388607)
- 560 compressed objects within 6 object streams
+ 1194 PDF objects out of 1200 (max. 8388607)
+ 564 compressed objects within 6 object streams
  167 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

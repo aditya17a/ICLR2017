@@ -21,6 +21,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
 \newlabel{sec1}{{1}{1}{Introduction}{section.1}{}}
 \citation{mozer1989using}
+\citation{segee1991fault}
+\citation{mozer1989skeletonization}
 \citation{fahlman1989cascade}
 \citation{reed1993pruning}
 \citation{chauvin1990generalization}
@@ -28,14 +30,14 @@
 \citation{srivastava2014dropout}
 \citation{goodfellow2013maxout}
 \citation{fahlman1989cascade}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{2}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Non-Pruning Based Generalization \& Compression Techniques}{2}{subsection.2.1}}
 \citation{balzer1991weight}
 \citation{dundar1994effects}
 \citation{hoehfeld1992learning}
 \citation{prabhavalkar2016compression}
 \citation{Anders2016quant}
 \citation{deepcompression2016}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{2}{section.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Non-Pruning Based Generalization \& Compression Techniques}{2}{subsection.2.1}}
 \citation{mozer1989skeletonization}
 \citation{lecun1989optimal}
 \citation{hassibi1993second}
@@ -51,9 +53,9 @@
 \newlabel{eq:ts1}{{1}{4}{Taylor Series Representation of Error}{equation.3.1}{}}
 \newlabel{eq:ts3}{{2}{4}{Taylor Series Representation of Error}{equation.3.2}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Linear Approximation Approach}{4}{subsubsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Quadratic Approximation Approach}{4}{subsubsection.3.2.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The intuition behind neuron pruning decision.}}{5}{figure.1}}
 \newlabel{fig:intuition}{{1}{5}{The intuition behind neuron pruning decision}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Quadratic Approximation Approach}{5}{subsubsection.3.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Proposed Pruning Algorithm}{5}{subsection.3.3}}
 \citation{lecun-mnisthandwrittendigit-2010}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Algorithm I: Single Overall Ranking}{6}{subsubsection.3.3.1}}
@@ -69,13 +71,13 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Degradation in squared error (left) and classification accuracy (right) after pruning a single-layer network using The Single Overall Ranking algorithm (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{7}{figure.2}}
 \newlabel{fig:mnist-single-ranking-single-layer}{{2}{7}{Degradation in squared error (left) and classification accuracy (right) after pruning a single-layer network using The Single Overall Ranking algorithm (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.2}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Iterative Re-Ranking Algorithm}{7}{subsubsection.4.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Visualization of Error Surface \& Pruning Decisions}{7}{subsubsection.4.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Visualization of Error Surface \& Pruning Decisions}{8}{subsubsection.4.1.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Degradation in squared error (left) and classification accuracy (right) after pruning a single-layer network the Iterative Re-ranking algorithm (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{8}{figure.3}}
 \newlabel{fig:mnist-re-ranking-single-layer}{{3}{8}{Degradation in squared error (left) and classification accuracy (right) after pruning a single-layer network the Iterative Re-ranking algorithm (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the brute force criterion; (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{8}{figure.4}}
 \newlabel{fig:mnist-gt-single-layer}{{4}{8}{Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the brute force criterion; (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 1st order Taylor Series error approximation criterion; (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{8}{figure.5}}
-\newlabel{fig:mnist-gt-single-layer}{{5}{8}{Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 1st order Taylor Series error approximation criterion; (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 1st order Taylor Series error approximation criterion; (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{9}{figure.5}}
+\newlabel{fig:mnist-gt-single-layer}{{5}{9}{Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 1st order Taylor Series error approximation criterion; (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 2nd order Taylor Series error approximation criterion; (\textbf  {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}}{9}{figure.6}}
 \newlabel{fig:mnist-gt-single-layer}{{6}{9}{Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 2nd order Taylor Series error approximation criterion; (\textbf {Network:} 1 layer, 100 neurons, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.998)}{figure.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Pruning A 2-Layer Network}{10}{subsection.4.2}}
