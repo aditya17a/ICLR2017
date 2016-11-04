@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,11 +99,12 @@ Anders Oland and Bhiksha Raj.
   Signal Processing}, pp.\  2219--2223, 2015.
 
 \bibitem[Prabhavalkar et~al.(2016)Prabhavalkar, Alsharif, Bruguier, and
-  McGraw]{prabhavalkar2016svd}
-Rohit Prabhavalkar, Ouais Alsharif, Antoine Bruguier, and Ian McGraw.
+  McGraw]{prabhavalkar2016compression}
+Rohit Prabhavalkar, Ouais Alsharif, Antoine Bruguier, and Lan McGraw.
 \newblock On the compression of recurrent neural networks with an application
-  to {LVCSR} acoustic modeling for embedded speech recognition.
-\newblock \emph{arXiv preprint arXiv:1603.08042v2}, 2016.
+  to lvcsr acoustic modeling for embedded speech recognition.
+\newblock In \emph{2016 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pp.\  5970--5974. IEEE, 2016.
 
 \bibitem[Reed(1993)]{reed1993pruning}
 Russell Reed.
@@ -116,12 +117,6 @@ Bruce~E Segee and Michael~J Carter.
 \newblock Fault tolerance of pruned multilayer networks.
 \newblock In \emph{Neural Networks, 1991., IJCNN-91-Seattle International Joint
   Conference on}, volume~2, pp.\  447--452. IEEE, 1991.
-
-\bibitem[Sietsma \& Dow(1988)Sietsma and Dow]{sietsma1988neural}
-Jocelyn Sietsma and Robert~JF Dow.
-\newblock Neural net pruning-why and how.
-\newblock In \emph{Neural Networks, 1988., IEEE International Conference on},
-  pp.\  325--333. IEEE, 1988.
 
 \bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
   Salakhutdinov]{srivastava2014dropout}
