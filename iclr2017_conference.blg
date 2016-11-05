@@ -7,7 +7,7 @@ Warning--empty journal in fahlman1989cascade
 Warning--empty journal in lecun-mnisthandwrittendigit-2010
 You've used 19 entries,
             2773 wiz_defined-function locations,
-            697 strings with 8072 characters,
+            697 strings with 8075 characters,
 and the built_in function-call counts, 9384 in all, are:
 = -- 855
 > -- 512
