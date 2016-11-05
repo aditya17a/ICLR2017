@@ -18,5 +18,5 @@ Replacing $O$ by $O_k$ in equation \ref{eq:ts1} shows us that the error is appro
 \Delta E_k = \hat E(0) - \hat E(O_k)= - O_k\cdot \left.\pdv{E}{O}\right|_{O_k} + 0.5\cdot O_k^2\cdot \left.\pdv[2]{E}{O}\right|_{O_k}\label{eq:ts3},
 \end{align}
 
-where $\Delta E_k$ is the change in the total error of the network when exactly one neuron ($k$) is turned off.
+where $\Delta E_k$ is the change in the total error of the network when exactly one neuron ($k$) is turned off. Most of the terms in this equation are fairly easy to compute, as we have $O_k$ already from the activations of the hidden units and we already compute $\pdv{E}{O}|_{O_k}$ for each training instance during backpropagation. The $\small{\pdv[2]{E}{O}|_{O_k}}$ terms are a little more difficult to compute. This is derived in the appendix and summarized in the sections below. 
 
