@@ -102,8 +102,11 @@
 \newlabel{fig:mnist-g2-double-layer}{{12}{14}{Error surface of the network output in log space (left) and in real space (right) with respect to each candidate neuron chosen for removal using the 2nd order Taylor Series error approximation criterion; (\textbf {Network:} 2 layers, 50 neurons/layer, 10 outputs, logistic sigmoid activation, starting test accuracy: 1.000)}{figure.12}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Degradation in squared error after pruning a 2-layer network using the Single Pass Algorithm (left) and the Iterative Re-ranking algorithm(right) on toy "diamond" shape dataset (above) and toy "random shape" dataset (below); (\textbf  {Network:} 2 layers, 50 neurons/layer, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.992(diamond); 0.986(random shape)}}{14}{figure.13}}
 \newlabel{fig:diamond}{{13}{14}{Degradation in squared error after pruning a 2-layer network using the Single Pass Algorithm (left) and the Iterative Re-ranking algorithm(right) on toy "diamond" shape dataset (above) and toy "random shape" dataset (below); (\textbf {Network:} 2 layers, 50 neurons/layer, 10 outputs, logistic sigmoid activation, starting test accuracy: 0.992(diamond); 0.986(random shape)}{figure.13}{}}
-\citation{mozer1989using}
-\citation{darkknowledge2015}
+\citation{mozer1989skeletonization}
+\citation{mozer1989skeletonization}
+\citation{lecun1989optimal}
+\citation{hassibi1993second}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions \& Future Work}{16}{section.5}}
 \bibdata{iclr2017_conference}
 \bibcite{balzer1991weight}{{1}{1991}{{Balzer et~al.}}{{Balzer, Takahashi, Ohta, and Kyuma}}}
 \bibcite{baum1989size}{{2}{1989}{{Baum \& Haussler}}{{Baum and Haussler}}}
@@ -113,38 +116,36 @@
 \bibcite{goodfellow2013maxout}{{6}{2013}{{Goodfellow et~al.}}{{Goodfellow, Warde-Farley, Mirza, Courville, and Bengio}}}
 \bibcite{deepcompression2016}{{7}{2016}{{Han et~al.}}{{Han, Mao, and Dally}}}
 \bibcite{hassibi1993second}{{8}{1993}{{Hassibi \& Stork}}{{Hassibi and Stork}}}
-\bibcite{darkknowledge2015}{{9}{2015}{{Hinton et~al.}}{{Hinton, Vinyals, and Dean}}}
-\bibcite{hoehfeld1992learning}{{10}{1992}{{Hoehfeld \& Fahlman}}{{Hoehfeld and Fahlman}}}
-\bibcite{lecun-mnisthandwrittendigit-2010}{{11}{2010}{{LeCun \& Cortes}}{{LeCun and Cortes}}}
-\bibcite{lecun1989optimal}{{12}{1989}{{LeCun et~al.}}{{LeCun, Denker, Solla, Howard, and Jackel}}}
-\bibcite{mozer1989skeletonization}{{13}{1989{a}}{{Mozer \& Smolensky}}{{Mozer and Smolensky}}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions \& Future Work}{16}{section.5}}
-\bibcite{mozer1989using}{{14}{1989{b}}{{Mozer \& Smolensky}}{{Mozer and Smolensky}}}
-\bibcite{nielsen2015neural}{{15}{2015}{{Nielsen}}{{}}}
-\bibcite{Anders2016quant}{{16}{2015}{{{\O }land \& Raj}}{{{\O }land and Raj}}}
-\bibcite{prabhavalkar2016compression}{{17}{2016}{{Prabhavalkar et~al.}}{{Prabhavalkar, Alsharif, Bruguier, and McGraw}}}
-\bibcite{reed1993pruning}{{18}{1993}{{Reed}}{{}}}
-\bibcite{segee1991fault}{{19}{1991}{{Segee \& Carter}}{{Segee and Carter}}}
-\bibcite{srivastava2014dropout}{{20}{2014}{{Srivastava et~al.}}{{Srivastava, Hinton, Krizhevsky, Sutskever, and Salakhutdinov}}}
+\bibcite{hoehfeld1992learning}{{9}{1992}{{Hoehfeld \& Fahlman}}{{Hoehfeld and Fahlman}}}
+\bibcite{lecun-mnisthandwrittendigit-2010}{{10}{2010}{{LeCun \& Cortes}}{{LeCun and Cortes}}}
+\bibcite{lecun1989optimal}{{11}{1989}{{LeCun et~al.}}{{LeCun, Denker, Solla, Howard, and Jackel}}}
+\bibcite{mozer1989skeletonization}{{12}{1989{a}}{{Mozer \& Smolensky}}{{Mozer and Smolensky}}}
+\bibcite{mozer1989using}{{13}{1989{b}}{{Mozer \& Smolensky}}{{Mozer and Smolensky}}}
+\bibcite{nielsen2015neural}{{14}{2015}{{Nielsen}}{{}}}
+\bibcite{Anders2016quant}{{15}{2015}{{{\O }land \& Raj}}{{{\O }land and Raj}}}
+\bibcite{prabhavalkar2016compression}{{16}{2016}{{Prabhavalkar et~al.}}{{Prabhavalkar, Alsharif, Bruguier, and McGraw}}}
+\bibcite{reed1993pruning}{{17}{1993}{{Reed}}{{}}}
+\bibcite{segee1991fault}{{18}{1991}{{Segee \& Carter}}{{Segee and Carter}}}
+\bibcite{srivastava2014dropout}{{19}{2014}{{Srivastava et~al.}}{{Srivastava, Hinton, Krizhevsky, Sutskever, and Salakhutdinov}}}
 \bibstyle{iclr2017_conference}
-\@writefile{toc}{\contentsline {section}{\numberline {A}Second Derivative Back-Propagation}{18}{appendix.A}}
-\newlabel{apd:first}{{A}{18}{Second Derivative Back-Propagation}{appendix.A}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces A computational graph of a simple feed-forward network illustrating the naming of different variables, where $\sigma (\cdot )$ is the nonlinearity, MSE is the mean-squared error cost function and $E$ is the overall loss.}}{18}{figure.14}}
-\newlabel{fig:comp_graph}{{14}{18}{A computational graph of a simple feed-forward network illustrating the naming of different variables, where $\sigma (\cdot )$ is the nonlinearity, MSE is the mean-squared error cost function and $E$ is the overall loss}{figure.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}First and Second Derivatives}{18}{subsection.A.1}}
-\newlabel{cost_func_derivative}{{6}{18}{First and Second Derivatives}{equation.A.6}{}}
-\newlabel{cost_func_2nd_derivative}{{7}{18}{First and Second Derivatives}{equation.A.7}{}}
-\newlabel{sigmoid_derivative}{{8}{18}{First and Second Derivatives}{equation.A.8}{}}
-\newlabel{sigmoid_2nd_derivative}{{9}{18}{First and Second Derivatives}{equation.A.9}{}}
-\newlabel{dedx}{{25}{19}{First and Second Derivatives}{equation.A.25}{}}
-\newlabel{d2edx2}{{31}{20}{First and Second Derivatives}{equation.A.31}{}}
-\newlabel{dxdc}{{34}{20}{First and Second Derivatives}{equation.A.34}{}}
-\newlabel{dedc}{{36}{20}{First and Second Derivatives}{equation.A.36}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.1}Summary Of Output Layer Derivatives}{21}{subsubsection.A.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.2}Hidden Layer Derivatives}{22}{subsubsection.A.1.2}}
-\newlabel{dcdo}{{53}{22}{Hidden Layer Derivatives}{equation.A.53}{}}
-\newlabel{dedo_general}{{55}{22}{Hidden Layer Derivatives}{equation.A.55}{}}
-\newlabel{d2edo2}{{65}{23}{Hidden Layer Derivatives}{equation.A.65}{}}
-\newlabel{de2do2_general}{{66}{23}{Hidden Layer Derivatives}{equation.A.66}{}}
-\newlabel{dedx_general}{{67}{23}{Hidden Layer Derivatives}{equation.A.67}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.3}Summary Of Hidden Layer Derivatives}{24}{subsubsection.A.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Second Derivative Back-Propagation}{19}{appendix.A}}
+\newlabel{apd:first}{{A}{19}{Second Derivative Back-Propagation}{appendix.A}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces A computational graph of a simple feed-forward network illustrating the naming of different variables, where $\sigma (\cdot )$ is the nonlinearity, MSE is the mean-squared error cost function and $E$ is the overall loss.}}{19}{figure.14}}
+\newlabel{fig:comp_graph}{{14}{19}{A computational graph of a simple feed-forward network illustrating the naming of different variables, where $\sigma (\cdot )$ is the nonlinearity, MSE is the mean-squared error cost function and $E$ is the overall loss}{figure.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}First and Second Derivatives}{19}{subsection.A.1}}
+\newlabel{cost_func_derivative}{{6}{19}{First and Second Derivatives}{equation.A.6}{}}
+\newlabel{cost_func_2nd_derivative}{{7}{19}{First and Second Derivatives}{equation.A.7}{}}
+\newlabel{sigmoid_derivative}{{8}{19}{First and Second Derivatives}{equation.A.8}{}}
+\newlabel{sigmoid_2nd_derivative}{{9}{19}{First and Second Derivatives}{equation.A.9}{}}
+\newlabel{dedx}{{25}{20}{First and Second Derivatives}{equation.A.25}{}}
+\newlabel{d2edx2}{{31}{21}{First and Second Derivatives}{equation.A.31}{}}
+\newlabel{dxdc}{{34}{21}{First and Second Derivatives}{equation.A.34}{}}
+\newlabel{dedc}{{36}{21}{First and Second Derivatives}{equation.A.36}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.1}Summary Of Output Layer Derivatives}{22}{subsubsection.A.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.2}Hidden Layer Derivatives}{23}{subsubsection.A.1.2}}
+\newlabel{dcdo}{{53}{23}{Hidden Layer Derivatives}{equation.A.53}{}}
+\newlabel{dedo_general}{{55}{23}{Hidden Layer Derivatives}{equation.A.55}{}}
+\newlabel{d2edo2}{{65}{24}{Hidden Layer Derivatives}{equation.A.65}{}}
+\newlabel{de2do2_general}{{66}{24}{Hidden Layer Derivatives}{equation.A.66}{}}
+\newlabel{dedx_general}{{67}{24}{Hidden Layer Derivatives}{equation.A.67}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.3}Summary Of Hidden Layer Derivatives}{25}{subsubsection.A.1.3}}
