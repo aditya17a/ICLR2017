@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  5 NOV 2016 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.30)  5 NOV 2016 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1635,15 +1635,18 @@ File: png/rshape.png Graphic file (type png)
  <use png/rshape.png>
 Package pdftex.def Info: png/rshape.png used on input line 178.
 (pdftex.def)             Requested size: 317.9892pt x 117.06012pt.
-
+)
+(./conclusions.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./png/mnist-deep-gt-gain.pdf> <./png/mnist-deep-g1-gain.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./png/mnist-deep-g1-gain.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->]) (./conclusions.tex [14 <./png/mnist-deep-g2-gain.pdf> <./png/diamond.png> <
-./png/rshape.png>] [15]
+>] [14 <./png/mnist-deep-g2-gain.pdf> <./png/diamond.png> <./png/rshape.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16])
@@ -1734,7 +1737,7 @@ Here is how much of TeX's memory you used:
  18424 multiletter control sequences out of 15000+600000
  20996 words of font info for 39 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 40i,18n,45p,10423b,2117s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,45p,10423b,2121s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/
